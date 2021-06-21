@@ -1,0 +1,16 @@
+{
+    "name": "ulemmy.povoq",
+    "description": "A simple Lemmy webapp",
+    "architecture": "@CLICK_ARCH@",
+    "title": "uLemmy",
+    "hooks": {
+        "ulemmy": {
+            "apparmor": "ulemmy.apparmor",
+            "desktop":  "ulemmy.desktop",
+            "content-hub": "ulemmy.content-hub"
+        }
+    },
+    "version": "0.1.0",
+    "maintainer": "poVoq <kris@outmo.de>",
+    "framework" : "ubuntu-sdk-16.04.3"
+}

@@ -1,0 +1,5 @@
+{
+  "builder": "pure-qml-cmake",
+  "kill": "qmlscene",
+  "make_jobs": 4
+}
